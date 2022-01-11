@@ -183,7 +183,7 @@ body {
   background-color: white;
   opacity: 0.8;
   border-radius: 5px;
-  width: 40%;
+  width: 50%;
 }
 
 input[type=text] {
@@ -238,6 +238,21 @@ textarea {
   resize: none;
   margin-top: 5px;
   font-family: "Font Awesome 5 Free";
+}
+
+.title{
+  font-size: 2.5em;
+  padding-bottom: 5%;
+}
+
+.left-column {
+  float: left; 
+  width: 50%;
+}
+
+.right-column{
+  float: right; 
+  width: 50%;
 }
 
 /*--------------footer--------------*/
