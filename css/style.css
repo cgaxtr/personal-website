@@ -87,6 +87,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
+    max-height: inherit;
 }
 
 .bg-primary{
@@ -187,7 +188,7 @@ body {
 }
 
 input[type=text] {
-  width: 60%;
+  width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -203,7 +204,7 @@ textarea:hover, textarea:focus, input:hover, input:focus{
 }
 
 input[type=email] {
-  width: 60%;
+  width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -215,7 +216,7 @@ input[type=email] {
 }
 
 input[type=button] {
-  width: 60%;
+  width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -227,7 +228,7 @@ input[type=button] {
 }
 
 textarea {
-  width: 60%;
+  width: 80%;
   height: 200px;
   padding: 12px 20px;
   box-sizing: border-box;
