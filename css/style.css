@@ -86,13 +86,13 @@ body {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    padding: 5%;
+    padding: 10%;
     max-height: inherit;
 }
 
 .bg-primary{
     background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../assets/bg.jpg");
-    /*background-image: url("../assets/bg.jpg");*/
+    /* background-image: url("../assets/bg.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -118,6 +118,16 @@ body {
     font-size: 2vw;
     color: white;
 
+}
+
+#link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 1px;
+  padding: 10px 30px;
+  margin: 20px 0;
 }
 
 #personal_img {
@@ -275,3 +285,37 @@ footer {
   color: white;
 }
 
+/*--------------animation--------------*/
+
+.fade-in-text {
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
