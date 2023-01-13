@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +8,7 @@
     <title>Carlos Gómez Amador</title>
     <!--<meta name="description" content="A simple HTML5 Template for new projects.">-->
     <meta name="author" content="Carlos Gomez Amaodor">
+    
     <!--
     <meta property="og:title" content="A Basic HTML5 Template">
     <meta property="og:type" content="website">
@@ -25,53 +26,109 @@
   </head>
 
   <body>
-    <header>
-      <div class="nav">
-        <a class="active">Main</a>
-        <a>Option 1</a>
-        <a>Option 3</a>
-        <a>Option 4</a>
-        <a>Option 5</a>
-      </div>
-    </header>
-
     <section class="bg-primary">
-        <div class="center">
+        <div class="horizontal-center vertical-center">
+          <img src="assets/logo_temporal.png" class="logo" alt="">
           <h1 class="fade-in">Hi! I'm Carlos</h1>
           <h2>I'm a software engineer</h2>
           <a id="link" href="#presentation">More Information!</a>
         </div>    
     </section>
 
-    <section id="presentation">
-      <div>
-        
+    <section class="bg-white" id="presentation">
+      <div class="container">
+        <div class="col">
+            <img src="./assets/avatar.jpg" class="avatar" alt="">
+        </div>
+        <div class="col">
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, veniam, quaerat aliquid provident labore architecto aspernatur facere distinctio doloremque natus maxime dolorum ratione eligendi laborum et quidem nulla ducimus repudiandae! </p>
+        </div>
       </div>
     </section>
 
     <!--projects-->
-    <section class="bg-secondry">
-      <div class="flex content">
-        <div class="card card-hghlght">
-          <img src="./assets/f110.jpg" alt="F-110 frigate">
-          <h2>F-110</h2>
-        </div>
-        <div class="card card-hghlght">
-          <img src="./assets/cpd.jpeg" alt="F-110 frigate">
-          <h2>CPD Athenea</h2>
-        </div>
-        <div class="card card-hghlght">
-          <img src="./assets/android.jpg" alt="F-110 frigate">
-          <h2>Android</h2>
-        </div>
-        <div class="card card-hghlght">
-          <img src="./assets/f110.jpg" alt="F-110 frigate">
-          <h2>F-110</h2>
-        </div>   
+
+    <section>
+      <div class="container flex">
+          <div class="card">
+            <img src="./assets/f110.jpg" alt="F-110 frigate">
+            <div class="title">
+              <h2>F-110</h2>
+            </div>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+              </p>
+            </div>
+            <div class="technologies">
+              <p>C</p>
+              <p>C++</p>
+              <p>VxWorks</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./assets/cpd.jpeg" alt="F-110 frigate">
+            <div class="title">
+              <h2>CPD Athenea</h2>
+            </div>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+              </p>
+            </div>
+            <div class="technologies">
+              <p>C</p>
+              <p>C++</p>
+              <p>VxWorks</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./assets/android.jpg" alt="F-110 frigate">
+            <div class="title">
+              <h2>Android</h2>
+            </div>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+              </p>
+            </div>
+            <div class="technologies">
+              <p>Java</p>
+              <p>Android</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./assets/f110.jpg" alt="F-110 frigate">
+            <div class="title">
+              <h2>F-110</h2>
+            </div>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores itaque dicta optio at quod porro et quia dolorem ex similique eos, sint ipsa praesentium enim? Eum non ipsam magnam nihil.
+              </p>
+            </div>
+            <div class="technologies">
+              <p>C</p>
+              <p>C++</p>
+              <p>VxWorks</p>
+            </div>
+          </div>
       </div>
     </section>
-
+    
     <!--contact me-->
+    <!--
     <section class="bg3 flex">
       <div class="contact container">
         <h1 class="title">Get in touch</h1>
@@ -88,23 +145,23 @@
         </div>
       </div>
     </section>
-
+    -->
     <footer>
       <div class="links">
         <a href="https://github.com/cgaxtr">
           <i class="fab fa-github"></i>
         </a>
-        <a href="https://github.com/cgaxtr">
+        <a href="https://www.linkedin.com/in/carlos-gomez-amador/">
           <i class="fab fa-linkedin-in"></i>
         </a>
-        <a href="https://github.com/cgaxtr">
+        <a href="mailto:cgaxtr@gmail.com">
           <i class="fas fa-envelope"></i>
         </a>
       </div>
       <div>
-        <p class="copyright">© 2022 Carlos Gómez. All rights reserved</p>
+        <p class="copyright">© 2023 Carlos Gómez. All rights reserved</p>
       </div>
     </footer>
-    <script type="text/javascript" src="./scripts/scroll.js"></script>
+    <script src="./scripts/scroll.js"></script>
   </body>
 </html>
