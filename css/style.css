@@ -38,6 +38,15 @@ a {
   color: white;
 }
 
+.flex{
+  display: flex;
+}
+
+.col_2{
+  width: 50%;
+  overflow: hidden;
+}
+
 
 /*--------------main section--------------*/
 
@@ -75,8 +84,15 @@ a {
   background-color: white;
 }
 
-.container {
+.container-80 {
   width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 6em;
+}
+
+.container-60 {
+  width: 60%;
   margin: 0 auto;
   overflow: hidden;
   padding: 6em;
@@ -86,6 +102,7 @@ a {
   width: 50%;
   float: left;
   overflow: hidden;
+  text-align: center;
 }
 
 .avatar {
@@ -102,6 +119,9 @@ a {
 
 .flex{
   display: flex;
+}
+
+.projects{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -143,6 +163,69 @@ a {
   border-radius: 10px;
   padding: 3px 15px;
   margin: 5px;
+}
+
+/*--------------contact--------------*/
+
+#contact-img{
+  width: 80%;
+}
+
+.contact-container{
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 6em;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  font-family: "Font Awesome 5 Free";
+}
+
+input[type="email"] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  font-family: "Font Awesome 5 Free";
+}
+
+textarea {
+  width: 80%;
+  height: 200px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin-top: 5px;
+  font-family: "Font Awesome 5 Free";
+}
+
+input[type="button"] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #04AA6D;
+  background-color: #75e2ba;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Font Awesome 5 Free";
 }
 
 
