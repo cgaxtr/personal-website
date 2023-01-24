@@ -23,7 +23,6 @@ body {
   max-height: inherit;
 }
 
-
 .vertical-center {
   position: relative;
   top: 50%;
@@ -145,6 +144,16 @@ a {
   margin: 20px 0;
 }
 
+.button {
+  text-align: center;
+  margin: 1em;
+}
+
+.button a {
+  border: 1px solid #000000 !important;
+  color: #000000;
+  padding: 1em;
+}
 
 /*--------------projects--------------*/
 
@@ -239,7 +248,7 @@ textarea {
   font-family: poppins;
 }
 
-input[type="button"] {
+input[type="submit"] {
   border: 1px solid #04AA6D;
   background-color: #75e2ba;
   box-sizing: border-box;
